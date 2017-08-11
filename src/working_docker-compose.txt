@@ -1,0 +1,7 @@
+version: '2'
+services:
+  python-service:
+    build: ./app
+    image: swepy
+    ports:
+    - 5001:80 
