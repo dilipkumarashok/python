@@ -8,7 +8,7 @@ class Product(Resource):
     def get(self):
         return {
 
-                'product':['icecream','milk1','juice','fruit', 'mango','jjj']
+                'product':['icecream','milk1','juice','fruit', 'mango','grapes']
             }
 
 api.add_resource(Product,'/')
