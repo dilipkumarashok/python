@@ -12,3 +12,9 @@ services:
     ports: 
         - 5002:8080
 
+
+  java-service:
+    build: ./app1
+    image: javaswe
+    ports: 
+        - 5002:8080
